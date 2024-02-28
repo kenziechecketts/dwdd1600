@@ -1,0 +1,147 @@
+body {
+    font-family: "Mukta", sans-serif;
+    font-size: 16px;
+    font-weight:300;
+    margin: 0;
+}
+
+/* Header Stuff Here */
+header {
+    background-color: #7FA095;
+    padding: 1rem 2%;
+}
+header h1 {
+    margin: 0;
+    color: white;
+}
+header p {
+    margin: 0;
+    color: white;
+    letter-spacing: .5px;
+}
+
+/* Nav Stuff Goes Here */
+nav {
+    background-color: #B3D2CD;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2%;
+    margin: 0;
+    display: flex;
+}
+nav ul li a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+    background-color: #E38F18;
+    color: white;
+}
+nav a:hover {
+    color: #7FA095;
+}
+
+/* Stuff for the Main */
+main{
+    padding: 1rem 2%;
+
+}
+main h1 {
+    color: #E38F18;
+}
+main h2 {
+    color: #E38F18;
+    margin-bottom: .2rem;
+}
+main h3 {
+    color: #E38F18;
+}
+main p {
+    color: #2f3133;
+    margin: 0 0 .3rem 0;
+}
+main ol {
+    padding: .5rem 3%;
+    background-color: #FAF4F4;
+}
+main dl dt {
+    color:#7FA095;
+    font-weight:700
+}
+main dl dd {
+    color: black;
+    font-size: .9rem;
+}
+main ul {
+    list-style-type: circle;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main address {
+    font-style: normal;
+    background-color: #FAF4F4;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+main a {
+    color: #7FA095;
+}
+main a:hover {
+    color: #E38F18;
+}
+figure.player {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+figure.player img {
+    width: 100%;
+    height: auto;
+}
+figure.player figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #FAF4F4;
+    padding: .3rem 0;
+    background-color: #E38F18;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+div.gallery img {
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/* Footer Stuff Here */
+footer {
+    background-color: #B3D2CD;
+    text-align: center;
+    color: white;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: white;
+}
