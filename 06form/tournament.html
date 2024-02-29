@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pickleball for Amateurs: Home</title>
+        <link rel="stylesheet" href="Pickleball.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+        
+        <meta name="description" content="Learn the basics of Pickleball">
+        <meta name="author" content="Mckenzie Checketts">
+    </head>
+    <body>
+        <!--Start of the page header-->
+        <header>
+            <h1>Pickleball for Amateurs</h1>
+            <p>Everything you need to know about pickleball!</p>
+        </header>
+        <!--Start of the page navigation-->
+        <nav>
+            <ul>
+                <li><a href="index.html">What is Pickleball?</a></li>
+                <li><a href="Rules.html">How to Play</a></li>
+                <li><a href="equipment.html">Equipment</a></li>
+                <li class="active"><a href="tournament.html">Tournament Sign Up</a></li>
+            </ul>
+        </nav>
+        <!--Start of the page content-->
+        <main>
+        <h1>Sign Up For A Tournament</h1>
+           <form method="get" class="signupForm" action="thankyou.html">
+        
+        <fieldset>
+        <legend>Player Information</legend>
+        <label>First Name*<input type="text" name="fname" required></label>
+        <label>Last Name*<input type="text" name="lname" required></label>    
+        <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+        <label>Email*<input type="email" name="email" required></label>
+        </fieldset>
+            
+        <fieldset>   
+        <legend>Position</legend>   
+            <label><input type="radio" name="skill" value="doubles">Doubles</label>
+            <label><input type="radio" name="skill" value="singles">Singles</label>
+            <label><input type="radio" name="skill" value="both">Both</label>
+        </fieldset>
+            
+        <fieldset>
+        <legend>Tournament Dates</legend>    
+            <label><input type="checkbox" name="march 16" value="chosen"> March 16, 2024</label>
+            <label><input type="checkbox" name="march 30" value="chosen"> March 30, 2024</label>
+            <label><input type="checkbox" name="april 13" value="chosen"> April 13, 2024</label>
+            
+            <label>Skill Level
+            <select name="time">
+            <option value="none">Please Select</option>
+            <option value="beginner">Beginner</option>
+            <option value="intermdiate">Intermediate</option> 
+            <option value="advanced">Advanced</option>
+            </select>
+            </label>
+        </fieldset>
+            
+        <label>Additional Comments or Concerns
+            <textarea name="comments or concerns"></textarea>
+            
+        </label>
+            
+        <input type="submit" value="Send Delivery Resquest">
+        </form>     
+            
+        </main>
+        <!--Start of the page footer-->
+        <footer>
+       <p>&copy; 2024 &bull; Mckenzie Checketts &bull; <a href="mailto:kenziechecketts2@gmail.com">Email Us</a></p> 
+        </footer>
+    
+    </body>
+</html>
